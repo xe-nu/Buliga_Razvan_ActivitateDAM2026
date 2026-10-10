@@ -1,9 +1,10 @@
-package com.example.s2;
+package com.example.xen;
 
 import android.os.Bundle;
 
 import androidx.activity.EdgeToEdge;
 
+import com.example.s2.R;
 import com.google.android.material.snackbar.Snackbar;
 
 import androidx.appcompat.app.AppCompatActivity;
