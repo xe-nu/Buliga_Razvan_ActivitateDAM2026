@@ -68,14 +68,12 @@ public class MainActivity extends AppCompatActivity {
         startActivityForResult(it, 100);
     }
 
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-
-        if (requestCode == 100 && resultCode == RESULT_OK && data != null){
+    protected void onActivityResult(int requestCode, int returnCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, returnCode, data);
+        if (requestCode == 100 && returnCode == RESULT_OK && data != null) {
             String msg = data.getStringExtra("msg");
             int result = data.getIntExtra("result", 0);
-            Toast.makeText(this, msg + " = " + result, Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, msg + " " + result, Toast.LENGTH_SHORT).show();
         }
     }
 }

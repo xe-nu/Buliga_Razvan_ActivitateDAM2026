@@ -26,3 +26,4 @@ rootProject.name = "S2"
 include(":app")
 include(":app:seminar02")
 include(":app:seminar03")
+include(":app:seminar04")

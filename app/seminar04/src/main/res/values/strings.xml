@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">seminar04</string>
+    <string name="Hello_World" />
+    <string name="exemplu_Xen" />
+    <string name="este_zi">Este zi?</string>
+    <string name="bratara_salvata">Bratara salvata</string>
+    <string name="textView_Titlu" />
+    <string name="configurare_bratara">Configurare Bratara\n</string>
+    <string name="adauga_marca">Adauga Marca</string>
+    <string name="are_pietre">Are pietre?</string>
+    <string name="marime_bratara">Marime bratara</string>
+    <string name="marime_S">S</string>
+    <string name="marime_M">M</string>
+    <string name="marime_L">L\n</string>
+    <string-array name="tipuriMaterial">
+        <item>Argint</item>
+        <item>Aur</item>
+        <item>Aur Alb</item>
+        <item>Aur 24K</item>
+        <item>Stainless Steel</item>
+    </string-array>
+</resources>
