@@ -12,6 +12,11 @@
     <string name="marime_S">S</string>
     <string name="marime_M">M</string>
     <string name="marime_L">L\n</string>
+    <string name="salveaza_bratara">Salveaza bratara</string>
+    <string name="ajustabila">Ajustabila</string>
+    <string name="rating_bratara">Rating bratara</string>
+    <string name="activitate_bratari">Activitate Bratari</string>
+    <string name="ultima_bratara_salvata">Ultima bratara salvata</string>
     <string-array name="tipuriMaterial">
         <item>Argint</item>
         <item>Aur</item>

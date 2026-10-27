@@ -70,7 +70,7 @@
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Rating bratara"
+        android:text="@string/rating_bratara"
         android:textAlignment="center"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -127,5 +127,26 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvTitlu"
         app:layout_constraintVertical_bias="0.603" />
+
+    <Button
+        android:id="@+id/btnSalveaza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/salveaza_bratara"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ratingBar" />
+
+    <Switch
+        android:id="@+id/switchAjustabila"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ajustabila"
+        app:layout_constraintBottom_toTopOf="@+id/btnSalveaza"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ratingBar"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
