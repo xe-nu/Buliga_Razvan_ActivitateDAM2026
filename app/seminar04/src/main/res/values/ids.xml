@@ -2,4 +2,14 @@
 <resources>
     <item name="switchAjustabila" type="id" />
     <item name="btnSalveaza" type="id" />
+    <item name="marca" type="id" />
+    <item name="arePietre" type="id" />
+    <item name="marime" type="id" />
+    <item name="rating" type="id" />
+    <item name="material" type="id" />
+    <item name="ajustabila" type="id" />
+    <item name="etArePietre" type="id" />
+    <item name="etMarime" type="id" />
+    <item name="etRating" type="id" />
+    <item name="etMaterial" type="id" />
 </resources>

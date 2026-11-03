@@ -59,19 +59,11 @@ public class MainActivity extends AppCompatActivity {
             Bratara bratara = data.getParcelableExtra("BRATARA_NOUA");
 
             if (bratara != null) {
-                tvRezultat.setText(bratara.toString());
-                Toast.makeText(this, "Bratara adauga cu succes!", Toast.LENGTH_SHORT).show();
-            } else {
-                String brataraText = data.getStringExtra("BRATARA_NOUA");
-                if (brataraText != null) {
-                    tvRezultat.setText(brataraText.toString());
-                    Toast.makeText(this, "Bratara adaugata cu succes!", Toast.LENGTH_SHORT).show();
-                }
-            }
+                listaBratari.add(bratara);
 
-            listaBratari.add(bratara);
-            tvRezultat.setText("Total: " + listaBratari.size());
-            Toast.makeText(this, "Obiect salvat lista", Toast.LENGTH_SHORT).show();
+                tvRezultat.setText(bratara.toString());
+                Toast.makeText(this, "Bratara adaugata cu succes. Total: " + listaBratari.size(), Toast.LENGTH_SHORT).show();
+            }
         }
     }
 
