@@ -54,7 +54,7 @@ public class ActivitatePreluare extends AppCompatActivity {
             String marime = rbSelectat != null ? rbSelectat.getText().toString() : "M";
             Bratara brataraNoua = new Bratara(marca, arePietre, marime, material, rating, ajustabila);
             Intent resultIntent = new Intent();
-            resultIntent.putExtra("BRATARA_NOUA", brataraNoua.toString());
+            resultIntent.putExtra("BRATARA_NOUA", brataraNoua);
             setResult(RESULT_OK, resultIntent);
             finish();
         });
