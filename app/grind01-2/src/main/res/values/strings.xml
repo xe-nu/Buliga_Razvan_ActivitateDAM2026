@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">grind01-2</string>
+    <string name="grind">Grind</string>
+    <string name="button_new">Button New Activity</string>
+    <string name="go_back">Go Back</string>
+    <string name="textview">TextView</string>
+</resources>
