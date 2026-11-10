@@ -49,6 +49,13 @@ public class MainActivity extends AppCompatActivity {
             intent.putParcelableArrayListExtra("LISTA_BRATARI",  listaBratari);
             startActivity(intent);
         });
+
+        Button btnRetea = findViewById(R.id.btnRetea);
+        btnRetea.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, ActivitateRetea.class);
+
+            startActivity(intent);
+        });
     }
 
     @Override

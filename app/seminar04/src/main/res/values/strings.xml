@@ -17,6 +17,7 @@
     <string name="rating_bratara">Rating bratara</string>
     <string name="activitate_bratari">Activitate Bratari</string>
     <string name="ultima_bratara_salvata">Ultima bratara salvata</string>
+    <string name="acceseaza_pozele">Acceseaza Pozele</string>
     <string-array name="tipuriMaterial">
         <item>Argint</item>
         <item>Aur</item>
