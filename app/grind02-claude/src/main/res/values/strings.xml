@@ -1,10 +1,21 @@
 <resources>
     <string name="app_name">grind02-claude</string>
     <string name="aplicatie_telefoane">Aplicatie Telefoane</string>
-    <string name="aceseaza_activitatedate">Aceseaza ActivitateDate</string>
     <string name="adauga_un_tip_nou_de_telefon">Adauga un tip nou de telefon</string>
     <string name="integrare_ai">Integrare AI?</string>
-    <string name="nume_telefon"></string>
     <string name="intoarcere_la_activitatea_principala">Intoarcere la Activitatea principala</string>
     <string name="introduID">Introduceti ID ul\n</string>
+    <string name="lista_bratari">Lista bratari</string>
+    <string name="lista_telefoane">Lista telefoane\n</string>
+    <string name="a_treia_activitate">A treia activitate</string>
+    <string name="Da">Da</string>
+    <string name="Nu">Nu</string>
+    <string name="introduceti_un_nume_pentru_telefon">Introduceti un nume pentru telefon</string>
+    <string name="telefon">Telefon</string>
+    <string name="da">Da</string>
+    <string name="nu">Nu</string>
+    <string name="telefon_nou">TELEFON_NOU</string>
+    <string name="telefonul_a_fost_adaugat_cu_succes">Telefonul a fost adaugat cu succes</string>
+    <string name="lista_bratari2">LISTA_BRATARI</string>
+    <string name="acceseaza_activitatedate">Acceseaza ActivitateDate\n</string>
 </resources>
