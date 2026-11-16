@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">grind_nebunie_rau_de_tot</string>
+    <string name="_2nd_activity">2nd Activity</string>
+    <string name="tablete">Tablete</string>
+    <string name="model">Model\n</string>
+    <string name="ID">ID\n</string>
+    <string name="integrare_ai">Integrare AI?</string>
+    <string name="salveaza_inregistarea">Salveaza Inregistarea</string>
+    <string name="tableta_noua">TABLETA_NOUA</string>
+    <string name="ultima_tableta_adaugata">Ultima tableta adaugat</string>
+    <string name="telefonul_a_fost_adaugat_cu_succes">Telefonul a fost adaugat cu succes</string>
+    <string name="third_activity">3rd Activity\n</string>
+    <string name="Da">Da</string>
+    <string name="Nu">Nu</string>
+    <string name="tableta_a_fost_adaugata_cu_succes">Tableta a fost adaugata cu succes\n</string>
+</resources>

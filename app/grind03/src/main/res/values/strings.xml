@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">grind03</string>
+    <string name="cutie">Cutie</string>
+    <string name="secondactivity">SecondActivity</string>
+    <string name="cod_cutie">Cod cutie</string>
+    <string name="adaugati_o_cutie_noua">Adaugati o cutie noua</string>
+    <string name="culoare">Culoare</string>
+    <string name="fragil">Fragil?</string>
+    <string name="volum">Volum</string>
+    <string name="salveaza_cutia">Salveaza cutia</string>
+    <string name="ultima_cutie_adaugata">Ultima cutie adaugata</string>
+    <string name="ultima_cutie_a_fost_adaugata_cu_succes">Ultima cutie a fost adaugata cu succes</string>
+    <string name="cutia_a_fost_adaugata_cu_succes">Cutia a fost adaugata cu succes</string>
+    <string name="da">Da</string>
+    <string name="nu">Nu</string>
+    <string name="thirdactivity">ThirdActivity</string>
+</resources>

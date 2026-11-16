@@ -35,7 +35,7 @@ public class ThirdActivity extends AppCompatActivity {
 
         listView = findViewById(R.id.lv);
 
-        lista = getIntent().getParcelableArrayListExtra(Telefon.KEY_LISTA);;
+        lista = getIntent().getParcelableArrayListExtra(Telefon.KEY_LISTA);
 
         adapterTelefoane = new AdapterTelefoane(lista, this, R.layout.item_layout);
         listView.setAdapter(adapterTelefoane);
