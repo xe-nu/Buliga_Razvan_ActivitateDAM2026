@@ -41,23 +41,21 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        tvTelefoane = findViewById(R.id.textViewTelefoane);
-
         Button btn3rd = findViewById(R.id.btn3rd);
         btn3rd.setOnClickListener(v->{
            Intent intent = new Intent(MainActivity.this, ThirdActivity.class);
            intent.putParcelableArrayListExtra(Telefon.KEY_LISTA, lista);
            startActivityForResult(intent, 67);
         });
-    }
 
+        tvTelefoane = findViewById(R.id.textViewTelefoane);
+    }
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
         if(requestCode == 67 && resultCode == RESULT_OK && data != null){
-
             Telefon telefon = data.getParcelableExtra(Telefon.KEY_TELEFON_NOU);
             if (telefon != null){
                 lista.add(telefon);
