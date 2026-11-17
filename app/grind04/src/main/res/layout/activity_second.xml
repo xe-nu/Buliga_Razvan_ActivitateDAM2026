@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <EditText
+        android:id="@+id/Buliga_Razvan_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.099" />
+
+    <EditText
+        android:id="@+id/Buliga_Razvan_Producator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/producator"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/Buliga_Razvan_ID"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/Buliga_Razvan_ID"
+        app:layout_constraintTop_toBottomOf="@+id/Buliga_Razvan_ID"
+        app:layout_constraintVertical_bias="0.037" />
+
+    <EditText
+        android:id="@+id/Buliga_Razvan_Pret"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/pret"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/Buliga_Razvan_Producator"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Buliga_Razvan_Producator"
+        app:layout_constraintTop_toBottomOf="@+id/Buliga_Razvan_ID"
+        app:layout_constraintVertical_bias="0.146" />
+
+    <Spinner
+        android:id="@+id/Buliga_Razvan_Vati"
+        android:layout_width="228dp"
+        android:layout_height="55dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/Buliga_Razvan_Pret"
+        app:layout_constraintStart_toStartOf="@+id/Buliga_Razvan_Pret"
+        app:layout_constraintTop_toBottomOf="@+id/Buliga_Razvan_Pret"
+        app:layout_constraintVertical_bias="0.031" />
+
+    <RadioButton
+        android:id="@+id/Buliga_Razvan_Nou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nou"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/Buliga_Razvan_Vati"
+        app:layout_constraintStart_toStartOf="@+id/Buliga_Razvan_Vati"
+        app:layout_constraintTop_toBottomOf="@+id/Buliga_Razvan_Vati"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <Button
+        android:id="@+id/btnSalvare"
+        android:layout_width="207dp"
+        android:layout_height="59dp"
+        android:text="@string/salvare_date"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Buliga_Razvan_Nou"
+        app:layout_constraintVertical_bias="0.063" />
+</androidx.constraintlayout.widget.ConstraintLayout>
