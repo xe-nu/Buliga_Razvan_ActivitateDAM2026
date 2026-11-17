@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">grind05_claude</string>
+    <string name="secondactivity">SecondActivity</string>
+    <string name="biciclete">Biciclete</string>
+    <string name="ultima_bicicleta_adaugata">Ultima bicicleta adaugata</string>
+    <string name="serie">Serie</string>
+    <string name="marca">Marca</string>
+    <string name="electrica">Electrica</string>
+    <string name="salvare">Salvare</string>
+    <string name="da">Da</string>
+    <string name="nu">Nu</string>
+    <string name="thirdactivity">ThirdActivity</string>
+</resources>
