@@ -36,7 +36,7 @@ public class WeatherActivity extends AppCompatActivity {
     Spinner spinnerZile;
     Button btnCauta;
     TextView tvRezultat;
-    String apiKey = "zpka_319722f8730c4735bb57ee147d8e67cd_382bd836";
+    String apiKey = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
