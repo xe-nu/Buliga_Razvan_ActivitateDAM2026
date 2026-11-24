@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">seminar-JSON</string>
+    <string name="weather">Weather</string>
+    <string name="cauta">Cauta\n</string>
+    <string name="city">City</string>
+    <string name="introdu_oras">Introdu oras\n</string>
+    <string name="se_incarca">Se incarca</string>
+    <string name="oras_negasit">Oras negasit\n</string>
+    <string name="eroare">Eroare\n</string>
+    <string name="format_zi">Format zi\n</string>
+</resources>
